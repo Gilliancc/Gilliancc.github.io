@@ -1,0 +1,42 @@
+.title2>dd{
+	margin-bottom: 4px;
+}
+.title3>dd{
+	height: auto;
+}
+.popup_img1{
+	width: 100%;
+	height: 632px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/popup/1.png");
+	background-size: 888px 632px;
+	margin-bottom: 16px;
+}
+.popup_img2{
+	width: 100%;
+	height: 566px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/popup/2.png");
+	background-size: 888px 566px;
+	margin-bottom: 60px;
+}
+.popup_img3{
+	width: 100%;
+	height: 587px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/popup/3.png");
+	background-size: 888px 587px;
+	margin-bottom: 16px;
+}
+.popup_img4{
+	width: 100%;
+	height: 566px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/popup/4.png");
+	background-size: 888px 566px;
+	margin-bottom: 40px;
+}

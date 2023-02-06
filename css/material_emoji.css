@@ -1,0 +1,190 @@
+.title2{
+	margin-bottom: 24px;
+}
+.title3{
+	margin-top: 24px;
+}
+.title2>dd{
+	margin-bottom: 4px;
+}
+.title3>dd{
+	height: auto;
+}
+
+/*-----------------设置表情区域样式-----------------*/
+.emojispace_bg{
+	width: 100%;
+	height: 288px;
+	background: rgba(249, 249, 249, 0.7);
+	border-radius: 10px;
+}
+.emojispace{
+	width: 728px;
+	height: 280px;
+	margin: 16px auto ;
+	padding: 24px 0px;
+}
+.emojispace_disgust{
+	width: 805px;
+	height: 280px;
+	margin: 16px auto ;
+	padding: 24px 0px;
+}
+.emojicontent{
+	width: auto;
+	margin: 0px 16px ;
+}
+.emojicontent>p{
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+
+	color: #333333;
+
+	opacity: 0.8;
+}
+.materialemoji_img1{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/渴望1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img2{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/渴望2.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img3{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/渴望3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img4{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/渴望4.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img5{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/厌恶1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img6{
+	width: 227px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/厌恶2.gif");
+	background-size: 227px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img7{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/厌恶3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img8{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/厌恶4.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img9{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/迷恋1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img10{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/迷恋2.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img11{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/迷恋3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img12{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/迷恋4.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+
+.materialemoji_img13{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/无聊1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img14{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/无聊2.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img15{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/无聊3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.materialemoji_img16{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/material_emoji/无聊4.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}

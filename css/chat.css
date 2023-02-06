@@ -1,0 +1,54 @@
+.chat_img1{
+	width: 100%;
+	height: 551px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/chat/1.png");
+	background-size: 888px 551px;
+	margin-bottom: 30px;
+}
+.chat_img2{
+	width: 100%;
+	height: 187px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/chat/2.png");
+	background-size: 888px 187px;
+	margin-bottom: 20px;
+}
+.chat_img3{
+	width: 100%;
+	height: 451px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/chat/3.png");
+	background-size: 888px 451px;
+	margin-bottom: 20px;
+}
+.chat_img4{
+	width: 100%;
+	height: 161px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/chat/4.png");
+	background-size: 888px 161px;
+	margin-bottom: 20px;
+}
+.chat_img5{
+	width: 100%;
+	height: 133px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/chat/5.png");
+	background-size: 888px 133px;
+	margin-bottom: 30px;
+}
+.chat_img6{
+	width: 100%;
+	height: 553px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/chat/6.png");
+	background-size: 888px 553px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,49 @@
+.title2>dd{
+	margin-bottom: 4px;
+}
+
+.card_img1{
+	width: 100%;
+	height: 875px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/card/1.png");
+	background-size: 888px 875px;
+	margin-bottom: 30px;
+}
+.card_img2{
+	width: 100%;
+	height: 538px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/card/2.png");
+	background-size: 888px 538px;
+	margin-bottom: 30px;
+}
+.card_img3{
+	width: 100%;
+	height: 399px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/card/3.png");
+	background-size: 888px 399px;
+	margin-bottom: 24px;
+}
+.card_img4{
+	width: 100%;
+	height: 399px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/card/4.png");
+	background-size: 888px 399px;
+	margin-bottom: 24px;
+}
+.card_img5{
+	width: 100%;
+	height: 399px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/card/5.png");
+	background-size: 888px 399px;
+	margin-bottom: 30px;
+}

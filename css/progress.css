@@ -1,0 +1,15 @@
+.title2>dd{
+	margin-bottom: 4px;
+}
+.title3>dd{
+	height: auto;
+}
+.progress_img1{
+	width: 100%;
+	height: 705px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/progress/1.png");
+	background-size: 888px 705px;
+	margin-bottom: 40px;
+}

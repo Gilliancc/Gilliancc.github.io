@@ -1,0 +1,36 @@
+.notifications_img1{
+	width: 100%;
+	height: 162px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/notifications/1.png");
+	background-size: 888px 162px;
+	margin-bottom: 16px;
+}
+.notifications_img2{
+	width: 100%;
+	height: 424px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/notifications/2.gif");
+	background-size: 888px 424px;
+	margin-bottom: 30px;
+}
+.notifications_img3{
+	width: 100%;
+	height: 269px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/notifications/3.png");
+	background-size: 888px 269px;
+	margin-bottom: 30px;
+}
+.notifications_img4{
+	width: 100%;
+	height: 290px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/notifications/4.png");
+	background-size: 888px 290px;
+	margin-bottom: 30px;
+}

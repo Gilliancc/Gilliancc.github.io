@@ -1,0 +1,60 @@
+.title2>dd{
+	margin-bottom: 4px;
+}
+.title3>dd{
+	height: auto;
+}
+.avatar_img1{
+	width: 100%;
+	height: 197px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/avatar/1.png");
+	background-size: 888px 197px;
+	margin-bottom: 30px;
+}
+.avatar_img2{
+	width: 100%;
+	height: 828px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/avatar/2.png");
+	background-size: 888px 828px;
+	margin-bottom: 40px;
+}
+.avatar_img3{
+	width: 100%;
+	height: 133px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/avatar/3.gif");
+	background-size: 888px 133px;
+	margin-bottom: 40px;
+}
+.avatar_img4{
+	width: 100%;
+	height: 133px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/avatar/4.gif");
+	background-size: 888px 133px;
+	margin-bottom: 40px;
+}
+.avatar_img5{
+	width: 100%;
+	height: 133px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/avatar/5.gif");
+	background-size: 888px 133px;
+	margin-bottom: 40px;
+}
+.avatar_img6{
+	width: 100%;
+	height: 272px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/avatar/6.gif");
+	background-size: 888px 272px;
+	margin-bottom: 40px;
+}

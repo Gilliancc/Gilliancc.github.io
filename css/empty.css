@@ -1,0 +1,25 @@
+.title2>dd{
+	margin-bottom: 4px;
+}
+.title3>dd{
+	height: auto;
+}
+.empty_img1{
+	width: 100%;
+	height: 242px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/empty/1.png");
+	background-size: 888px 242px;
+	margin-bottom: 40px;
+}
+.empty_img2{
+	width: 100%;
+	height: 566px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/empty/2.png");
+	background-size: 888px 566px;
+	margin-bottom: 40px;
+}
+

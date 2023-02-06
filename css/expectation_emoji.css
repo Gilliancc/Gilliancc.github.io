@@ -1,0 +1,111 @@
+.title2{
+	margin-bottom: 24px;
+}
+.title3{
+	margin-top: 24px;
+}
+.title2>dd{
+	margin-bottom: 4px;
+}
+.title3>dd{
+	height: auto;
+}
+
+/*-----------------设置表情区域样式-----------------*/
+.emojispace_bg{
+	width: 100%;
+	height: 288px;
+	background: rgba(249, 249, 249, 0.7);
+	border-radius: 10px;
+}
+.emojispace{
+	width: 728px;
+	height: 280px;
+	margin: 16px auto ;
+	padding: 24px 0px;
+}
+.emojicontent{
+	width: 150px;
+	margin: 0px 16px ;
+}
+.emojicontent>p{
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+
+	color: #333333;
+
+	opacity: 0.8;
+}
+.expectationemoji_img1{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/expectation_emoji/满意1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.expectationemoji_img2{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/expectation_emoji/满意2.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.expectationemoji_img3{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/expectation_emoji/满意3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.expectationemoji_img4{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/expectation_emoji/满意4.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.expectationemoji_img5{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/expectation_emoji/不满意1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.expectationemoji_img6{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/expectation_emoji/不满意2.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.expectationemoji_img7{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/expectation_emoji/不满意3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.expectationemoji_img8{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/expectation_emoji/不满意4.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}

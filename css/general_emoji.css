@@ -1,0 +1,184 @@
+.title2{
+	margin-bottom: 24px;
+}
+.title3{
+	margin-top: 24px;
+}
+.title2>dd{
+	margin-bottom: 4px;
+}
+.title3>dd{
+	height: auto;
+}
+
+/*-----------------设置表情区域样式-----------------*/
+.emojispace_bg{
+	width: 100%;
+	height: 288px;
+	background: rgba(249, 249, 249, 0.7);
+	border-radius: 10px;
+}
+.emojispace{
+	width: 760px;
+	height: 280px;
+	margin: 16px auto ;
+	padding: 24px 0px;
+}
+.emojicontent{
+	width: 150px;
+	margin: 0px 16px ;
+}
+.emojicontent>p{
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+
+	color: #333333;
+
+	opacity: 0.8;
+}
+.generalemoji_img1{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/喜悦1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img2{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/喜悦2.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img3{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/喜悦3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img4{
+	width: 182px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/喜悦4.gif");
+	background-size: 182px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img5{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/悲伤1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img6{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/悲伤2.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img7{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/悲伤3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img8{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/悲伤4.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img9{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/希望1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img10{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/希望2.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img11{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/希望3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img12{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/希望4.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+
+.generalemoji_img13{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/恐惧1.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img14{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/恐惧2.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img15{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/恐惧3.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}
+.generalemoji_img16{
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/general_emoji/恐惧4.gif");
+	background-size: 150px 150px;
+	margin-bottom: 16px;
+}

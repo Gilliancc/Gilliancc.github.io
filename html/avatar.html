@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script
+     src="https://code.jquery.com/jquery-3.3.1.js"
+     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+     crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Chat UI Kits</title>
+	<link rel="shortcut icon" href="../img/logo.png">
+	
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/avatar.css">
+	<script src="../js/index.js"></script>
+</head>
+<body>
+	<!-- 导航栏布局 -->
+	<div id="guide" class="left">
+		<div class="container">
+			<div class="logozone">
+				<a class="logo" href="index.html"><span></span>Chat UI Kits</a>
+			</div>
+	<!-- 菜单 -->
+			<div class="guidebar">
+				<div class="guidebar-item">
+					<h1><a href="index.html">介绍</a></h1>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>规范</h1>
+					<dl class="guidebar-subitem">
+						<dt>样式指南</dt>
+						<dd><a href="text.html">Text &nbsp文本</a></dd>
+						<dd><a href="color.html">Colors &nbsp颜色</a></dd>
+						<dd><a href="icons.html">Icons &nbsp图标</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>基础规范</dt>
+						<dd><a href="chat.html">Chat &nbsp对话容器</a></dd>
+						<dd><a href="border.html">Border &nbsp边框</a></dd>
+						<dd><a href="shadow.html">Shadow &nbsp阴影</a></dd>
+					</dl>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>基础组件</h1>
+					<dl class="guidebar-subitem">
+						<!-- <dt></dt> -->
+						<dd><a href="button.html">Button &nbsp按钮</a></dd>
+						<dd><a href="input.html">Input &nbsp输入框</a></dd>
+						<dd><a href="radio&checkbox.html">Radio & Checkbox &nbsp单选项&复选项</a></dd>
+						<dd><a href="tag.html">Tag &nbsp标签</a></dd>
+						<dd><a href="notifications.html">Notification &nbsp消息通知</a></dd>
+						<dd><a href="toast.html">Toast &nbsp轻提示</a></dd>
+					</dl>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>对话组件</h1>
+					<dl class="guidebar-subitem">
+						<dt>会话区</dt>
+						<dd><a href="bubble.html">Bubble &nbsp消息气泡</a></dd>
+						<dd><a href="card.html">Card &nbsp卡片</a></dd>
+						<dd><a href="image.html">Image &nbsp图片</a></dd>
+						<dd><a href="video.html">Video &nbsp视频</a></dd>
+						<dd><a href="hyperlink.html">Hyperlink &nbsp超链接</a></dd>
+						<dd><a href="background.html">Background &nbsp聊天背景</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>表情符号</dt>
+						<dd><a href="general_emoji.html">General well-being &nbsp整体体验情绪</a></dd>
+						<dd><a href="expectation_emoji.html">Expectation-based &nbsp期望情绪</a></dd>
+						<dd><a href="social_emoji.html">Social context &nbsp社会评价情绪</a></dd>
+						<dd><a href="material_emoji.html">Material context &nbsp视觉评价情绪</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>输入区</dt>
+						<dd><a href="inputbox.html">Input &nbsp输入框</a></dd>
+						<dd><a href="voiceinput.html">Voice-Input &nbsp语音输入</a></dd>
+						<dd><a href="extensions.html">Extensions &nbsp扩展功能</a></dd>
+					</dl>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>展示组件</h1>
+					<dl class="guidebar-subitem">
+						<dt>头像、空状态</dt>
+						<dd><a class="active" href="avatar.html">Avatar &nbsp头像</a></dd>
+						<dd><a href="empty.html">Empty &nbsp空状态</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>其他</dt>
+						<dd><a href="progress.html">Progress &nbsp进度条</a></dd>
+						<dd><a href="stepper.html">Stepper &nbsp步骤条</a></dd>
+						<dd><a href="scrollview.html">ScrollView &nbsp滚动容器</a></dd>
+						<dd><a href="popup.html">Popup &nbsp弹窗</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主页面布局 -->
+	<div id="main" class="right">
+		<div class="container">
+			<dl class="title1">
+				<dt>Avatar 头像</dt>
+				<dd>Chatbot情感回应系统提供默认头像模版，通过头像向用户传递聊天机器人的形象特征</dd>
+			</dl>
+
+			<div class="avatar_content">
+				<dl class="title2">
+					<dt>基础样式</dt>
+					<dd>CUI提供3类头像模版：男性、女性、机器人。头像模版中五官脸型的画幅占比较大，默认的喜悦表情向用户传达活泼的性格特性和欢快的聊天氛围</dd>
+					
+				</dl>
+				<span class="avatar_img1"></span>
+			
+				
+				<dl class="title3">
+					<dt>变化样式</dt>
+					<dd>为增强会话过程的生动程度，在基础的头像样式之外，提供了上述三类头像的不同装扮样式（衣服、头饰、眼镜等），在不同的聊天场景中，可适度对Chatbot外貌形象进行变换</dd>
+				</dl>
+				<span class="avatar_img2"></span>
+
+				<dl class="title2">
+					<dt>交互动效</dt>
+					<dd>在特定场景中，使用默认模版的Chatbot形象会基于当前操作进程进行适当的动效展示，帮助用户理解Chatbot所传达的信息</dd>
+				</dl>
+				<dl class="title3">
+					<dt>眨眼</dt>
+					<dd>在与聊天机器人会话的过程中，聊天机器人头像每5秒眨眼两次；眨眼作为CUI中额外的非语言信号，模拟了正常对话中聊天者的动态语言表达，从而完成了对话的生动性表达</dd>
+				</dl>
+				<span class="avatar_img3"></span>
+				<dl class="title3">
+					<dt>思考</dt>
+					<dd>当聊天机器人后台需要花时间处理用户需求时，Chatbot头像可以展现思考动效，同其他组件配合展示能够更直接地向用户传达当前的Chatbot状态</dd>
+				</dl>
+				<span class="avatar_img4"></span>
+				<dl class="title3">
+					<dt>工作</dt>
+					<dd>当聊天机器人后台正在处理用户需求时，Chatbot头像可以展现工作动效，同其他组件配合展示能够更直接地向用户传达当前的Chatbot状态</dd>
+				</dl>
+				<span class="avatar_img5"></span>
+				<dl class="title3">
+					<dt>应用示例</dt>
+				</dl>
+				<span class="avatar_img6"></span>
+			</div>
+			
+			<div class="default_footer">
+				Chat UI Kits  | Copyright © 2022_GillianCHEN
+			</div>
+			
+		</div>
+
+	</div>
+</body>
+</html>

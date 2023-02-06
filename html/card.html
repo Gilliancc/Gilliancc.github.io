@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script
+     src="https://code.jquery.com/jquery-3.3.1.js"
+     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+     crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Chat UI Kits</title>
+	<link rel="shortcut icon" href="../img/logo.png">
+	
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/card.css">
+	<script src="../js/index.js"></script>
+</head>
+<body>
+	<!-- 导航栏布局 -->
+	<div id="guide" class="left">
+		<div class="container">
+			<div class="logozone">
+				<a class="logo" href="index.html"><span></span>Chat UI Kits</a>
+			</div>
+	<!-- 菜单 -->
+			<div class="guidebar">
+				<div class="guidebar-item">
+					<h1><a href="index.html">介绍</a></h1>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>规范</h1>
+					<dl class="guidebar-subitem">
+						<dt>样式指南</dt>
+						<dd><a href="text.html">Text &nbsp文本</a></dd>
+						<dd><a href="color.html">Colors &nbsp颜色</a></dd>
+						<dd><a href="icons.html">Icons &nbsp图标</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>基础规范</dt>
+						<dd><a href="chat.html">Chat &nbsp对话容器</a></dd>
+						<dd><a href="border.html">Border &nbsp边框</a></dd>
+						<dd><a href="shadow.html">Shadow &nbsp阴影</a></dd>
+					</dl>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>基础组件</h1>
+					<dl class="guidebar-subitem">
+						<!-- <dt></dt> -->
+						<dd><a href="button.html">Button &nbsp按钮</a></dd>
+						<dd><a href="input.html">Input &nbsp输入框</a></dd>
+						<dd><a href="radio&checkbox.html">Radio & Checkbox &nbsp单选项&复选项</a></dd>
+						<dd><a href="tag.html">Tag &nbsp标签</a></dd>
+						<dd><a href="notifications.html">Notification &nbsp消息通知</a></dd>
+						<dd><a href="toast.html">Toast &nbsp轻提示</a></dd>
+					</dl>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>对话组件</h1>
+					<dl class="guidebar-subitem">
+						<dt>会话区</dt>
+						<dd><a href="bubble.html">Bubble &nbsp消息气泡</a></dd>
+						<dd><a class="active" href="card.html">Card &nbsp卡片</a></dd>
+						<dd><a href="image.html">Image &nbsp图片</a></dd>
+						<dd><a href="video.html">Video &nbsp视频</a></dd>
+						<dd><a href="hyperlink.html">Hyperlink &nbsp超链接</a></dd>
+						<dd><a href="background.html">Background &nbsp聊天背景</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>表情符号</dt>
+						<dd><a href="general_emoji.html">General well-being &nbsp整体体验情绪</a></dd>
+						<dd><a href="expectation_emoji.html">Expectation-based &nbsp期望情绪</a></dd>
+						<dd><a href="social_emoji.html">Social context &nbsp社会评价情绪</a></dd>
+						<dd><a href="material_emoji.html">Material context &nbsp视觉评价情绪</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>输入区</dt>
+						<dd><a href="inputbox.html">Input &nbsp输入框</a></dd>
+						<dd><a href="voiceinput.html">Voice-Input &nbsp语音输入</a></dd>
+						<dd><a href="extensions.html">Extensions &nbsp扩展功能</a></dd>
+					</dl>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>展示组件</h1>
+					<dl class="guidebar-subitem">
+						<dt>头像、空状态</dt>
+						<dd><a href="avatar.html">Avatar &nbsp头像</a></dd>
+						<dd><a href="empty.html">Empty &nbsp空状态</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>其他</dt>
+						<dd><a href="progress.html">Progress &nbsp进度条</a></dd>
+						<dd><a href="stepper.html">Stepper &nbsp步骤条</a></dd>
+						<dd><a href="scrollview.html">ScrollView &nbsp滚动容器</a></dd>
+						<dd><a href="popup.html">Popup &nbsp弹窗</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主页面布局 -->
+	<div id="main" class="right">
+		<div class="container">
+			<dl class="title1">
+				<dt>Card 卡片</dt>
+				<dd>在CUI中，卡片用以聚合信息，同类型信息聚合组成完整的信息模块，方便用户阅读与交互</dd>
+			</dl>
+
+			<div class="card_content">
+				<dl class="title2">
+					<dt>基础样式</dt>
+					<dd>卡片可承载文字、链接、按钮、选项、标签、图片、视频等基础文本与控件信息，用户可通过点击卡片或控件完成对应操作</dd>
+					<dd>卡片的基础样式可分为默认尺寸、小尺寸两种尺寸类型</dd>
+				</dl>
+				<span class="card_img1"></span>
+				<dl class="title2">
+					<dt>应用场景</dt>
+					<dd>卡片展示样式根据使用场景的不同又有所区别，Chatbot情感回应系统中列举1）商品展示 2）问题/列表展示 3）反馈、评价操作 4）信息说明 四种不同使用场景的卡片样例以供参考使用</dd>
+					<dd>*卡片使用应注意信息层级的清晰展示</dd>
+				</dl>
+				<dl class="title3">
+					<dt>商品展示</dt>
+					<dd>商品展示卡片包含商品卡片（售前）、订单卡片（售后）两种类型，卡片中包含商品图片、名称、价格、数量、标签的信息元素，支持卡片的平铺展示</dd>
+				</dl>
+				<span class="card_img2"></span>
+				<dl class="title3">
+					<dt>问题/列表展示</dt>
+					<dd>问题/列表卡片多用于常见问题的展示、长文本信息的聚合场景中，往往通过点击对应标题文字完成页面的跳转</dd>
+				</dl>
+				<span class="card_img3"></span>
+				<dl class="title3">
+					<dt>反馈/评价</dt>
+					<dd>在收集用户信息、使用体验的场景中，反馈/评价卡片被用以向用户解释信息，并支持用户在卡片中输入相关信息，完成反馈/评价/填写信息的操作</dd>
+				</dl>
+				<span class="card_img4"></span>
+				<dl class="title3">
+					<dt>信息说明</dt>
+					<dd>在纯文本难以解释的情况下，说明卡片能够讲图片/视频同文本信息进行聚类，从而帮助用户更好地理解Chatbot传达的信息</dd>
+				</dl>
+				<span class="card_img5"></span>
+			</div>
+			
+			<div class="default_footer">
+				Chat UI Kits  | Copyright © 2022_GillianCHEN
+			</div>
+			
+		</div>
+
+	</div>
+</body>
+</html>

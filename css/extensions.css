@@ -1,0 +1,22 @@
+.title2>dd{
+	margin-bottom: 4px;
+}
+
+.extensions_img1{
+	width: 100%;
+	height: 294px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/extensions/1.png");
+	background-size: 888px 294px;
+	margin-bottom: 24px;
+}
+.extensions_img2{
+	width: 100%;
+	height: 439px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/extensions/2.png");
+	background-size: 888px 439px;
+	margin-bottom: 40px;
+}
