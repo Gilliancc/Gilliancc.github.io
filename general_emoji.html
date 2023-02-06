@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script
+     src="https://code.jquery.com/jquery-3.3.1.js"
+     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+     crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Chat UI Kits</title>
+	<link rel="shortcut icon" href="img/logo.png">
+	
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/general_emoji.css">
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<!-- 导航栏布局 -->
+	<div id="guide" class="left">
+		<div class="container">
+			<div class="logozone">
+				<a class="logo" href="index.html"><span></span>Chat UI Kits</a>
+			</div>
+	<!-- 菜单 -->
+			<div class="guidebar">
+				<div class="guidebar-item">
+					<h1><a href="index.html">介绍</a></h1>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>规范</h1>
+					<dl class="guidebar-subitem">
+						<dt>样式指南</dt>
+						<dd><a href="text.html">Text &nbsp文本</a></dd>
+						<dd><a href="color.html">Colors &nbsp颜色</a></dd>
+						<dd><a href="icons.html">Icons &nbsp图标</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>基础规范</dt>
+						<dd><a href="chat.html">Chat &nbsp对话容器</a></dd>
+						<dd><a href="border.html">Border &nbsp边框</a></dd>
+						<dd><a href="shadow.html">Shadow &nbsp阴影</a></dd>
+					</dl>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>基础组件</h1>
+					<dl class="guidebar-subitem">
+						<!-- <dt></dt> -->
+						<dd><a href="button.html">Button &nbsp按钮</a></dd>
+						<dd><a href="input.html">Input &nbsp输入框</a></dd>
+						<dd><a href="radio&checkbox.html">Radio & Checkbox &nbsp单选项&复选项</a></dd>
+						<dd><a href="tag.html">Tag &nbsp标签</a></dd>
+						<dd><a href="notifications.html">Notification &nbsp消息通知</a></dd>
+						<dd><a href="toast.html">Toast &nbsp轻提示</a></dd>
+					</dl>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>对话组件</h1>
+					<dl class="guidebar-subitem">
+						<dt>会话区</dt>
+						<dd><a href="bubble.html">Bubble &nbsp消息气泡</a></dd>
+						<dd><a href="card.html">Card &nbsp卡片</a></dd>
+						<dd><a href="image.html">Image &nbsp图片</a></dd>
+						<dd><a href="video.html">Video &nbsp视频</a></dd>
+						<dd><a href="hyperlink.html">Hyperlink &nbsp超链接</a></dd>
+						<dd><a href="background.html">Background &nbsp聊天背景</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>表情符号</dt>
+						<dd><a class="active" href="general_emoji.html">General well-being &nbsp整体体验情绪</a></dd>
+						<dd><a href="expectation_emoji.html">Expectation-based &nbsp期望情绪</a></dd>
+						<dd><a href="social_emoji.html">Social context &nbsp社会评价情绪</a></dd>
+						<dd><a href="material_emoji.html">Material context &nbsp视觉评价情绪</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>输入区</dt>
+						<dd><a href="inputbox.html">Input &nbsp输入框</a></dd>
+						<dd><a href="voiceinput.html">Voice-Input &nbsp语音输入</a></dd>
+						<dd><a href="extensions.html">Extensions &nbsp扩展功能</a></dd>
+					</dl>
+				</div>
+				<div class="line"></div>
+				<div class="guidebar-item">
+					<h1>展示组件</h1>
+					<dl class="guidebar-subitem">
+						<dt>头像、空状态</dt>
+						<dd><a href="avatar.html">Avatar &nbsp头像</a></dd>
+						<dd><a href="empty.html">Empty &nbsp空状态</a></dd>
+					</dl>
+					<dl class="guidebar-subitem">
+						<dt>其他</dt>
+						<dd><a href="progress.html">Progress &nbsp进度条</a></dd>
+						<dd><a href="stepper.html">Stepper &nbsp步骤条</a></dd>
+						<dd><a href="scrollview.html">ScrollView &nbsp滚动容器</a></dd>
+						<dd><a href="popup.html">Popup &nbsp弹窗</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主页面布局 -->
+	<div id="main" class="right">
+		<div class="container">
+			<dl class="title1">
+				<dt>General well-being 整体体验情绪</dt>
+				<dd>Chatbot情感化回应系统中，表情符号可划分为四种类型；其中，整体体验情绪影响用户在会话式交互中的整体体验评价</dd>
+			</dl>
+
+			<div class="generalemoji_content">
+				<dl class="title2">
+					<dt>喜悦</dt>
+				</dl>
+				<dl class="title3">
+					<dt>基础样式</dt>
+					<dd>喜悦（Joy）代表用户使用产品的整体正向感受，该类表情符号的使用可向用户传达当前愉悦的交互氛围与情绪</dd>
+					<dd>*喜悦贴图按照程度划分为4种表现形式：</dd>
+				</dl>
+
+				<div class="emojispace_bg">
+					<div class="emojispace">
+						<div class="emojicontent left">
+							<span class="generalemoji_img1"></span>
+							<p>喜悦1</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img2"></span>
+							<p>喜悦2</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img3"></span>
+							<p>喜悦3</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img4"></span>
+							<p>喜悦4</p>
+						</div>
+					</div>
+				</div>
+				
+				<dl class="title3">
+					<dt>应用示例</dt>
+					<dd>在任务完成、寒暄问候等场景下，可适当应用喜悦贴图传递情感；</dd>
+					<dd>*表情符号可与其他组件组合使用，以营造氛围</dd>
+				</dl>
+				<div class="videotest">
+					<video controls width="300" height="648">
+						<source src="../img/general_emoji/joy.mp4"></source>
+					</video>
+				</div>
+
+				<dl class="title2">
+					<dt>悲伤</dt>
+				</dl>
+				<dl class="title3">
+					<dt>基础样式</dt>
+					<dd>悲伤（Sadness）代表用户使用产品的整体负向感受，该类贴图可用于向用户解释当前任务/进程状态，或与用户共情表达</dd>
+					<dd>*悲伤贴图按照程度划分为4种表现形式：</dd>
+				</dl>
+
+				<div class="emojispace_bg">
+					<div class="emojispace">
+						<div class="emojicontent left">
+							<span class="generalemoji_img5"></span>
+							<p>悲伤1</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img6"></span>
+							<p>悲伤2</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img7"></span>
+							<p>悲伤3</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img8"></span>
+							<p>悲伤4</p>
+						</div>
+					</div>
+				</div>
+				
+				<dl class="title3">
+					<dt>应用示例</dt>
+					<dd>在任务失败、未提供符合用户喜好商品等场景下，可适当应用悲伤贴图传递情感、或营造氛围；</dd>
+					<dd>*表情符号可与其他组件组合使用，以营造氛围</dd>
+				</dl>
+				<div class="videotest">
+					<video controls width="300" height="648">
+						<source src="../img/general_emoji/sad.mp4"></source>
+					</video>
+				</div>
+
+				<dl class="title2">
+					<dt>希望</dt>
+				</dl>
+				<dl class="title3">
+					<dt>基础样式</dt>
+					<dd>希望（Hope）代表用户使用产品的整体正向感受，该类表情符号的使用可向用户传达当前愉悦、或充满希望的交互氛围与情绪</dd>
+					<dd>*希望贴图按照程度划分为4种表现形式：</dd>
+				</dl>
+
+				<div class="emojispace_bg">
+					<div class="emojispace">
+						<div class="emojicontent left">
+							<span class="generalemoji_img9"></span>
+							<p>希望1</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img10"></span>
+							<p>希望2</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img11"></span>
+							<p>希望3</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img12"></span>
+							<p>希望4</p>
+						</div>
+					</div>
+				</div>
+				
+				<dl class="title3">
+					<dt>应用示例</dt>
+					<dd>在诱导购买、评价收集、闲聊等场景下，可适当应用希望贴图传递情感；</dd>
+					<dd>*表情符号可与其他组件组合使用，以营造氛围</dd>
+				</dl>
+				<div class="videotest">
+					<video controls width="300" height="648">
+						<source src="../img/general_emoji/hope.mp4"></source>
+					</video>
+				</div>
+
+				<dl class="title2">
+					<dt>恐惧</dt>
+				</dl>
+				<dl class="title3">
+					<dt>基础样式</dt>
+					<dd>恐惧（Fear）代表用户使用产品的整体负向感受，该类表情符号可用于向用户解释当前任务进展，或与用户共情表达</dd>
+					<dd>*恐惧贴图按照程度划分为4种表现形式：</dd>
+				</dl>
+
+				<div class="emojispace_bg">
+					<div class="emojispace">
+						<div class="emojicontent left">
+							<span class="generalemoji_img13"></span>
+							<p>恐惧1</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img14"></span>
+							<p>恐惧2</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img15"></span>
+							<p>恐惧3</p>
+						</div>
+						<div class="emojicontent left">
+							<span class="generalemoji_img16"></span>
+							<p>恐惧4</p>
+						</div>
+					</div>
+				</div>
+				
+				<dl class="title3">
+					<dt>应用示例</dt>
+					<dd>在用户行为反馈、闲聊、特殊状态提醒等场景下，可适当应用恐惧贴图传递情感、或营造氛围；</dd>
+					<dd>*表情符号可与其他组件组合使用，以营造氛围</dd>
+				</dl>
+				<div class="videotest">
+					<video controls width="300" height="648">
+						<source src="../img/general_emoji/fear.mp4"></source>
+					</video>
+				</div>
+
+			</div>
+			
+			<div class="default_footer">
+				Chat UI Kits  | Copyright © 2022_GillianCHEN
+			</div>
+			
+		</div>
+
+	</div>
+</body>
+</html>
